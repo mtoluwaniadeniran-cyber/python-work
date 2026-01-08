@@ -6,4 +6,3 @@ for user in new_users:
         print("Oops!, this username is taken. Please enter a new username.")
     else:
         print("This user name is available.")
-
