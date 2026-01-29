@@ -3,14 +3,14 @@
 
 #Letting the user choose when to quit
 prompt = "\nTell me something, and I will repeat it back to you:"
-prompt += "\nEnter 'quit' to end the program. "
+prompt += "\nEnter 'quit' to end the program.\n "
 
-'''message = " "
-while message != ' quit':
+'''message = ""
+while message != 'quit':
     message = input(prompt)
-    
-    if message != ' quit':
-        print(message)'''
+    print(message)
+    #if message != ' quit':
+    #print(message)'''
 
 #Using a flag to end a loop
 active = True
@@ -21,4 +21,3 @@ while active:
         active = False
     else:
         print(message)
-        

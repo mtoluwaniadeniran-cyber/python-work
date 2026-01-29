@@ -1,8 +1,11 @@
 prompt = "\nWelcome to PizzaTops! Enter your desired toppings: "
-prompt += "\nEnter 'quit' when you finish."
+prompt += "\nEnter 'quit' when you finish.\n"
 
+toppings = ""
 
-while prompt != ' quit':
-    print(f"I will add {prompt} to your pizza.")
-if prompt == ' quit':
+while toppings != 'quit':
+    toppings = input(prompt)
+    if toppings != 'quit':
+        print(f"I will be adding {toppings} to your pizza.")
+    else:
         print("done")
