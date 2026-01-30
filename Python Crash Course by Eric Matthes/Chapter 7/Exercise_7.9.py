@@ -5,5 +5,4 @@ print("Oops! We are out of Pastrami")
 while 'Pastrami' in sandwich_orders:
     sandwich_orders.remove('Pastrami')
 
-print("\n")
 print(sandwich_orders)
