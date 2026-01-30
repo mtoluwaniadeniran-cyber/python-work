@@ -15,7 +15,8 @@ while polling_active:
     if repeat == 'no': 
         polling_active = False 
         
-# Polling is complete. Show the results. 
+# Polling is complete. Show the results
 print("\n--- Poll Results ---") 
 for name, response in responses.items(): 
     print(f"{name} would like to go to {response}.")
+#sharp
