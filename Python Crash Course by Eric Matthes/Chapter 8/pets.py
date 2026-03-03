@@ -11,8 +11,8 @@ describe_pet(animal_type='goldfish', pet_name='hansen')'''
 
 #Default values
 def describe_pet(pet_name, animal_type='dog'):
-     """Display information about a pet."""
+    """Display information about a pet."""
     print(f"\nI have a {animal_type}.")
     print(f"My {animal_type}'s name is {pet_name.title()}.")
 
-describe_pet('Willie') #default values doesn't seem to work
+describe_pet(pet_name='Willie')

@@ -6,6 +6,13 @@ def get_formatted_name(first_name, last_name):
 #This is an infinite loop!
 while True:
     print("\nPlease tell me your first name")
+
+    '''f_name = input("First name: ")
+    l_name = input("Last name: ")
+
+    formatted_name = get_formatted_name(f_name, l_name)
+    print(f"\nHello, {formatted_name}!")'''
+
     print("(enetr 'q' at any time to quit)")
 
     f_name = input("First name: ")
